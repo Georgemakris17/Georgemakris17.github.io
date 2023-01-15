@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Η ΒΙΟΓΡΑΦΙΑ ΚΑΙ ΤΑ ΕΡΓΑ ΤΟΥ JO NESBO</title>
+    <link rel="icon" href="IMAGE/png-clipart-computer-icons-book-open-book-angle-reading-thumbnail.png" type="image/x-icon">
+  <link rel="stylesheet" href="cssfile.css">
+  <script src="javascript.js"></script>
+  <script src="node.js"></script>
+   
+</head>
+<body onload="playMusic()">
+  <header> <h1>Η ΒΙΟΓΡΑΦΙΑ ΚΑΙ ΤΑ ΕΡΓΑ ΤΟΥ JO NESBO</h1> </header>
+  <nav>
+    <ul class="menu" >
+      <li><a href="#" onclick="showSection('biography')">Βιογραφία</a></li>
+      <li><a href="#" onclick="showSection('photos')">Φωτογραφίες</a></li>
+      <li><a href="#" onclick="showSection('projects')">Έργα</a></li>
+      <li><a href="#" onclick="showSection('links')">Σύνδεσμοι</a></li>
+      <li><a href="#" onclick="showSection('management')">Διαχείριση</a></li>
+    </ul>
+  </nav>
+  <aside>
+    <ul class="dipla">
+    <div id="biography" class="hidden">
+      <li><a href="#1" onclick="showSection1('biography')">Γενικές πληροφορίες</a></li>
+      <li><a href="#1" onclick="showSection1('pros')">Προσωπική ζωή</a></li>
+      <li><a href="#1" onclick="showSection1('log')">Λογοτεχνικη σταδιοδρομία</a></li>
+      <li><a href="#1" onclick="showSection1('stad')">Βραβεία και υποψηφιότητες</a></li>
+    </div>
+    <div id="photos" class="hidden">
+      <li><a href="#2" onclick="showSection1('photos')">Γενικές Φωτογραφίες</a></li>
+      
+      <li><a href="#2" onclick="showSection1('photos2')">Φωτογραφίες βιβλίων</a></li>
+      
+    </div>
+    <div id="projects" class="hidden">
+      <li><a href="#3" onclick="showSection1('ergo1')">Μυθιστορήματα με βασικό ήρωα τον Χάρι Χόλε</a></li>
+      <li><a href="#3" onclick="showSection1('ergo2')">Τα μυθιστορήματα Doktor Proktor (Δόκτορ Πορδαλός, παιδικά βιβλία)</a></li>
+      
+      
+      
+    </div>
+    <div id="links" class="hidden">
+      <li><a href="#4" onclick="showSection2('link')">Η Βιογραφία και τα συγγραματάτου</a></li>
+      <li><a href="#4" onclick="showSection2('link1')">Καταστημα με ολα τα συγραμματα του</a></li>
+      <li><a href="#4" onclick="showSection2('link2')">Συνεντευξη του Jo Nesbø</a></li>
+      
+    </div>
+    <div id="management" class="hidden">
+      <li><a href="#5" onclick="showSection3('syndesh')">Σύνδεση </a></li>
+      <li><a href="#5" onclick="showSection3('aposindesh')">Αποσύνδεση</a></li>
+      <li><a href="#5" onclick="showSection4('diaxirisi1')">Διαχείριση εργων</a></li>
+      <li><a href="#5" onclick="showSection4('diaxirisi2')">Διαχείριση συνδέσμων</a></li>
+      
+    </div>
+  </aside>
+  <main class="biogaphi" >
+    
+    <p id="biography" class="hidden">
+      <b>Γενικές πληροφορίες</b><br>
+      Ο Γιου Νέσμπε (Jo Nesbø, προφέρεται [ju nɛsbø], γενν. 29 Μαρτίου 1960) είναι Νορβηγός συγγραφέας αστυνομικών μυθιστορημάτων με πάνω από 20 βιβλία στο ενεργητικό του. Από τον Σεπτέμβριο του 2008 περισσότερα από ενάμισι εκατομμύριο αντίτυπα από τα μυθιστορήματά του έχουν πωληθεί στη Νορβηγία και το έργο του έχει μεταφραστεί σε πάνω από 40 γλώσσες.
+
+      Ο Νέσμπε γεννήθηκε και ζει στο Όσλο, αλλά μεγάλωσε στο Μόλντε. Αποφοίτησε από τη νορβηγική Οικονομική Σχολή με πτυχίο στα Οικονομικά και τη Διοίκηση Επιχειρήσεων. Ο Νέσμπε είναι κυρίως διάσημος για τα αστυνομικά μυθιστορήματα του με τον ντετέκτιβ Χάρι Χόλε, αλλά είναι επίσης ο βασικός τραγουδιστής και τραγουδοποιός για το νορβηγικό ροκ συγκρότημα Di Derre. Το 2007 κυκλοφόρησε επίσης το πρώτο βιβλίο για παιδιά, το "Doktor Proktors prumpepulver".
+      
+      Το 2011 κυκλοφόρησε η ταινία Κυνηγοί κεφαλών βασισμένο στο μυθιστόρημα του Hodejegerne (The Headhunters).
+    </p>
+    <p id="pros" class="hidden">
+        
+     <b>Προσωπική ζωή</b> <br>
+      Σπούδασε οικονομικά και εργάστηκε ως δημοσιογράφος. Το 1997, σε ηλικία 37 χρόνων, κυκλοφόρησε το πρώτο του αστυνομικό μυθιστόρημα με τίτλο "The Bat Man", το οποίο ήταν και το πρώτο της σειράς με πρωταγωνιστή τον Χάρι Χόλε. Διάσημος σήμερα όσο και ο καλτ ντετέκτιβ του, τα βιβλία του έχουν πουλήσει πάνω από 23.000.000 αντίτυπα (δεδομένα 2014)[1] και έχουν εκδοθεί σε πάνω από 40 χώρες.
+  </p>
+  <p id="log" class="hidden">
+        
+    <b>Λογοτεχνική σταδιοδρομία</b><br>
+    Ο Νέσμπο αντιπροσωπεύεται από τον οργανισμό Salomonsson.
+ </p>
+ <p id="stad" class="hidden">
+  <b>Βραβεία και υποψηφιότητες</b><br>
+
+  The Riverton Prize 1997 για το καλύτερο νορβηγικό αστυνομικό μυθιστόρημα της χρονιάς (Η νυχτερίδα)<br>
+  The Glass Key Award 1998 για το καλύτερο νορβηγικό αστυνομικό μυθιστόρημα της χρονιάς (Η νυχτερίδα)<br>
+  The Norwegian Booksellers' Prize για το καλύτερο Μυθιστόρημα της Χρονιάς 2000 (Ο κοκκινολαίμης)<br>
+  The Mads Wiel Nygaards Bursary 2002 (Νέμεσις)<br>
+  Βραβείο για το καλύτερο νορβηγικό αστυνομικό μυθιστόρημα που γράφτηκε ποτέ χορηγήθηκε από τις νορβηγικές λέσχες βιβλίου το 2004 (Ο κοκκινολαίμης)<br>
+  Του απονεμήθηκε έπαινος από τη Φινλανδική Ακαδημία συγγραφέων αστυνομικού μυθιστορήματος για το μυθιστόρημα (Το αστέρι του διαβόλου)<br>
+  Υποψήφιος για Duncan Lawrie International Dagger 2007 (Ο Κοκκινολαίμης)<br>
+  The Norwegian Booksellers' Prize για το καλύτερο Μυθιστόρημα της Χρονιάς 2007 (Ο Χιονάνθρωπος)<br>
+  Υποψήφιο για το Ark's Children's Book Award για το καλύτερο παιδικό βιβλίο της χρονιάς 2007 (Δόκτωρ Πορδαλός: Η περίφημη πορδαλόσκονη)<br>
+  The Norwegian Book Club Prize 2008 για το καλύτερο μυθιστόρημα της χρονιάς (Ο Χιονάνθρωπος)<br>
+  Υποψηφιότητα για Norwegian Bookseller's Prize 2008 (Κυνηγοί Κεφαλών και Doctor Proctor's Time Bathtub)<br>
+  Υποψηφιότητα για το βραβείο Edgar 2010 (Νέμεσις)<br>    
+  
+ </p>
+ <p id="photos" class="hidden">
+  <b class="flex">
+    <img src="/Image/300px-Jo_Nesbø1.jpg" width= "300px">
+  <img src="/Image/jo-nesbo.jpg" width= "300px">
+  <img src="/Image/jo-nesb-fototrinehisdal-1024x617_1.jpg" width= "300px">
+  <img src="/Image/jo_nesbo.jpg" width="300px">
+  </b>
+  
+ </p>
+ <p id="photos2" class="hidden">
+  <b class="flex">
+    <img src="/Image/363276.jpg" width= "200px">
+    <img src="/Image/images.jpg" width= "200px">
+    <img src="/Image/b268638.jpg" width= "200px">
+    <img src="/Image/s3.gy.digital_metaixmio_uploads_asset_data_23654_978-618-03-2872-1_1.jpg" width= "200px">
+    <img src="/Image/5c139fb124000001018c85d3.jpeg" width= "200px">
+    <img src="/Image/large_20220518094655_o_gios.jpeg" width= "200px">
+    <img src="/Image/s3.jpg" width= "200px">
+    <img src="/Image/20200219104908_i_dipsa.jpeg" width= "200px">
+    <img src="/Image/342109.jpg" width= "200px">
+    <img src="/Image/89369c472eb9882c8435f855148c6236.jpg" width= "200px">
+    <img src="/Image/9781787303133.jpg" width= "200px">
+    <img src="/Image/1578390-264x264-800x800.jpg" width= "200px">
+    <img src="/Image/64321879ABF9F23F302AC1DA36D2438B.jpg" width= "200px">
+    <img src="/Image/010200042703.jpg" width= "200px">
+    <img src="/Image/20200219110618_perissotero_aima1.jpeg" width= "200px">
+  </b>
+  
+ </p>
+ <p id="ergo1" class="hidden">
+  <b>Μυθιστορήματα με βασικό ήρωα τον Χάρι Χόλε</b><br>
+  1997 - Flaggermusmannen "Bat Man": Η Νυχτερίδα<br>
+  1998 - Kakerlakkene "Cockroaches": Οι κατσαρίδες<br>
+  2000 - Rødstrupe "Robin": Ο κοκκινολαίμης<br>
+  2002 - Sorgenfri ""Free of Sorrow": Νέμεσις<br>
+  2003 - Marekors "Pentagram": Το αστέρι του διαβόλου<br>
+  2005 - Frelseren "Savior": Ο Λυτρωτής<br>
+  2007 - Snømannen "Snoman": Ο Χιονάνθρωπος<br>
+  2009 - Panserhjerte "Armored Heart": Η Λεοπάρδαλη<br>
+  2011 - Gjenferd "Ghosts "Phantom" : Ο Φαντομάς<br>
+  2013 - Police ''Police'': Η Αστυνομία<br>
+  2017 - Tørst "The Thirst": Η Δίψα<br>
+  2019 - Kniv "Knife": Μαχαίρι
+ </p>
+ <p id="ergo2" class="hidden">
+  <b>Τα μυθιστορήματα Doktor Proktor (Δόκτορ Πορδαλός, παιδικά βιβλία)</b><br>
+  2007 – Doktor Proktors Prompepulver: Δόκτορ Πορδαλός και η περίφημη πορδαλόσκονη<br>
+  2008 – Doktor Proktors Prompepulver tidsbadekaret: Δόκτορ Πορδαλός και η περίφημη πορδαλόσκονη The time Bathtub<br>
+  2010 – Doktor Proktor og verdens undergang Kanskje: Doctor Proctor and the Armageddon. Maybe. <br>
+ </p>
+
+ <div id="syndesh" class="hidden">
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <button type="button" onclick="login()">Login</button>
+  </form>
+</div>
+<div id="aposindesh"  class="hidden">
+  <button type="button" onclick="logout()">Logout</button>
+</div>
+<div id="admin-form" style="display:none">
+  <h2>Admin Section</h2>
+  <div id="diaxirisi1"class="hidden">
+    <h3>Projects</h3>
+    <button type="button" onclick="addProject()">Add Project</button>
+    <button type="button" onclick="editProject()">Edit Project</button>
+    <button type="button" onclick="deleteProject()">Delete Project</button>
+  </div>
+  <div id="diaxirisi2" class="hidden">
+    <h3>Links</h3>
+    <button type="button" onclick="addLink()">Add Link</button>
+    <button type="button" onclick="editLink()">Edit Link</button>
+    <button type="button" onclick="deleteLink()">Delete Link</button>
+  </div>
+</div>
+</main>
+<footer>
+  <p id="link" class="hidden" >
+    <a href="https://el.wikipedia.org/wiki/%CE%93%CE%B9%CE%BF%CF%85_%CE%9D%CE%AD%CF%83%CE%BC%CF%80%CE%B5#" target="_blank">link:Η Βιογραφία και τα συγγραματά του</a>
+  </p>
+  <p id="link1" class="hidden">
+    <a href="https://www.skroutz.gr/a/75581/jo-nesbo.html" target="_blank">link:Ολα τα βιβλια του στο skroutz</a><br>
+    <a href="https://www.public.gr/authors/nesb-jo/B75581" target="_blank">link:Ολα τα βιβλια του στο public</a>
+    
+  </p>
+  <p id="link2" class="hidden">
+    <a href="https://www.youtube.com/watch?v=jq5FBqUyXNs" target="_blank">Link: Συνεντευξη του Jo Nesbø</a>
+  </p>
+</footer>
+
+<audio id="music" src="/music/The Most Beautiful & Relaxing Piano Pieces (Vol. 1).mp3" autoplay></audio>
+  
+
+</body>
+</html>
